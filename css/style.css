@@ -30,6 +30,7 @@ body{
     width: 300px;
     margin: 10px;
     background: #fff;
+    box-shadow: 10px 10px 20px rgb(153, 150, 150);
 }
 .foto-usuario img{
     width: 150px;
