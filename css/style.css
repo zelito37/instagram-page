@@ -1,4 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -8,27 +17,27 @@ body{
 }
 .caixa1{
     display: flex;
-    
-    width: 400px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
     margin: 10px;
     margin: auto;
     
 }
-.caixa-foto{
-    justify-content: center;
-    
 
-}
 .group-sub{
 
     
     
 }
 .subcaixa1{
-    padding: 10px 0 10px 0;
-    text-align: center;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 300px;
     margin: 10px;
+    padding: 10px;
     background: #fff;
     box-shadow: 10px 10px 20px rgb(153, 150, 150);
 }
@@ -47,10 +56,24 @@ body{
     color: blue;
 }
 .button{
-    display: block;
+    color: white;
+    text-align: center;
+    background: blue;
+    width: 130px;
+    display: block;    
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+     
 
 }
+
 .get-app{
     width: 130px;
+}
+@media(max-width:600px){
+    .caixa-foto{
+        display: none;
+    }
 }
 
